@@ -21,11 +21,9 @@ public class Unit {
 	public void attack() {
 		
 	}
-	
 	public void defense() {
 		
 	}
-	
 	public void move() {
 		
 	}
