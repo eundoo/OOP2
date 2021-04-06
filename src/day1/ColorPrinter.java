@@ -21,4 +21,8 @@ public class ColorPrinter extends Printer {
 		//이름, 메소드 재정의 (Method Overriding)라고 한다.
 		System.out.println("컬러로 출력하기");
 	}
+	@Override
+	public void refill() {
+		System.out.println("컬러 잉크 채우기");
+	}
 }
