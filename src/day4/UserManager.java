@@ -44,6 +44,7 @@ public class UserManager {
 		return savedUser;
 	}
 	
+	//사용자 정보 변경하기
 	public void modifyUserInfo(User user) {
 		User savedUser = repo.getUserById(user.getId());
 		if (savedUser == null) {
@@ -53,6 +54,5 @@ public class UserManager {
 		repo.updateUser(user);
 		System.out.println("###["+user.getId()+"] 아이디 사용자의 정보가 변경되었습니다.");
 	}
-	
-	//사용자 정보 업데이트
+
 }
